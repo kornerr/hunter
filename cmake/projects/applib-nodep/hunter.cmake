@@ -1,17 +1,17 @@
 
 # Load used modules.
-INCLUDE(HUNTER_ADD_VERSION)
-INCLUDE(HUNTER_DOWNLOAD)
-INCLUDE(HUNTER_PICK_SCHEME)
+INCLUDE(hunter_add_version)
+INCLUDE(hunter_download)
+INCLUDE(hunter_pick_scheme)
 
-HUNTER_ADD_VERSION(
+hunter_add_version(
     PACKAGE_NAME applib-nodep
     VERSION "0.0.1"
     URL "https://bitbucket.org/kornerr/hunter-applib-nodep/get/0.0.1.tar.gz"
     SHA1 a8b4279df20a22e2cf04bfb43c456d1eea2b29de
 )
 
-HUNTER_PICK_SCHEME(DEFAULT ULR_SHA1_CMAKE)
+hunter_pick_scheme(DEFAULT URL_SHA1_CMAKE)
 
-HUNTER_DOWNLOAD(PACKAGE_NAME applib-nodep)
+hunter_download(PACKAGE_NAME applib-nodep)
 
