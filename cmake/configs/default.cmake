@@ -314,4 +314,4 @@ hunter_config(zookeeper VERSION 3.4.9-p2)
 hunter_config(tacopie VERSION 2.4.0-h1)
 hunter_config(cpp_redis VERSION 3.5.0-h1)
 
-hunter_config(applib-nodep VERSION 0.0.2)
+hunter_config(applib-nodep VERSION 0.0.3)

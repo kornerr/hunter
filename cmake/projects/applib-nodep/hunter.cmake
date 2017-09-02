@@ -16,6 +16,12 @@ hunter_add_version(
     URL https://bitbucket.org/kornerr/hunter-applib-nodep/get/0.0.2.tar.gz
     SHA1 3411b2bb043a0641e05aa1ae1343f461b4118804
 )
+hunter_add_version(
+    PACKAGE_NAME applib-nodep
+    VERSION 0.0.3
+    URL https://bitbucket.org/kornerr/hunter-applib-nodep/get/0.0.3.tar.gz
+    SHA1 7218432732026a3482c4428d7d5b4b772e37e656
+)
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 
