@@ -11,7 +11,7 @@ hunter_add_version(
     SHA1 a8b4279df20a22e2cf04bfb43c456d1eea2b29de
 )
 
-hunter_pick_scheme(DEFAULT URL_SHA1_CMAKE)
+hunter_pick_scheme(DEFAULT url_sha1_cmake)
 
 hunter_download(PACKAGE_NAME applib-nodep)
 
